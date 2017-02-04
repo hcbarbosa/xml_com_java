@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<venda moeda="real">
+	 <formaDePagamento>Cartao</formaDePagamento>
+    <produtos>
+        <produto>
+            <nome>Livro de java com xml</nome>
+            <preco>59.90</preco>
+        </produto>
+        <produto>
+            <nome>Livro de jax-p</nome>
+            <preco>59.90</preco>
+        </produto>
+        <produto>
+            <nome>Livro de O.O em java</nome>
+            <preco>59.90</preco>
+        </produto>
+         <produto>
+            <nome>Livro de jax-b</nome>
+            <preco>59.90</preco>
+        </produto>
+    </produtos>
+</venda>

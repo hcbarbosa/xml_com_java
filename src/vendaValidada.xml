@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- para fazer o link entre o xsd e o xml se usa o namespace (xmlns) -->
+<!-- dentro da definicao dele, apelidamos de xsi (xml schema instance) -->
+<!-- e passamos a url de referencia: o namespace do xsd + '-instance'-->
+<!-- depois se passa a localizacao do arquivo xsd com o apelido do ns -->
+<!-- atraves do atributo  :noNamespaceSchemaLocation -->
+<venda moeda="real" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validaVenda.xsd">
+	 <formaDePagamento>Cartao</formaDePagamento>
+    <produtos>
+        <produto>
+            <nome>Livro de java com xml</nome>
+            <preco>59.90</preco>
+        </produto>
+        <produto>
+            <nome>Livro de jax-p</nome>
+            <preco>59.90</preco>
+        </produto>
+        <produto>
+            <nome>Livro de O.O em java</nome>
+            <preco>59.90</preco>
+        </produto>
+    </produtos>
+</venda>
